@@ -27,7 +27,7 @@ body{
     width: 100%;
     bottom: 0;
     padding-block: 16px;
-    background-color: #0009;
+    background-color: #0009; 
     color: #fff;
     text-align: center;
     font-size: 1.5rem;
@@ -36,16 +36,16 @@ body{
 
 @keyframes slider {
     0%, 33% {
-        background-image: url(./img/olhos-gato.jpg);
-        --text-description: "Olhos de gato!"
+        background-image: url(./img/catraca.jpeg);
+        --text-description: "O lugar de entrada para o conhecimento!"
     }
     34%, 66% {
-        background-image: url(./img/olhos-cachorro.jpg);
-        --text-description: "Olhos de cachorro!"
+        background-image: url(./img/ping-pong.jpeg);
+        --text-description: "Momento de diversão no intervalo!"
     }
     67%, 100% {
-        background-image: url(./img/olhos-aguia.jpg);
-        --text-description: "Olhos de aguia!"
+        background-image: url(./img/quadra.jpeg);
+        --text-description: "Muito lazer"
     }
 }
 @keyframes fade {
